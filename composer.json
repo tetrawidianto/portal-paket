@@ -13,7 +13,8 @@
     "require": {
         "laravel/ui": "^3.0@dev",
         "jeroennoten/laravel-adminlte": "dev-master",
-        "shipping-docker/vessel": "dev-master"
+        "shipping-docker/vessel": "dev-master",
+        "laravel/horizon": "^5.0@dev"
     },
     "autoload": {
         "psr-4": {
