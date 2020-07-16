@@ -1,0 +1,16 @@
+{
+  "name": "portal-paket",
+  "version": "1.0.0",
+  "description": "Paket NPM untuk Portal",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.1",
+    "icheck-bootstrap": "^3.0.1",
+    "overlayscrollbars": "^1.12.0"
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "tetrawidianto/portal-paket",
+    "description": "Paket Composer untuk Portal",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tetra Widianto",
+            "email": "tetraw86@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/ui": "^3.0@dev",
+        "jeroennoten/laravel-adminlte": "dev-master",
+        "shipping-docker/vessel": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "PortalPaket\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PortalPaket\\PortalPaketServiceProvider"
+            ]
+        }
+    }
+}
